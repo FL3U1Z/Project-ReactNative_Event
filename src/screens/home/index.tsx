@@ -30,13 +30,19 @@ export function Home() {
     return (
         <View style={styles.container}>
 
-            <Text style={styles.eventName}
-            >Nome do Evento
-            </Text>
+            <TextInput 
+            style={styles.eventName}
+            placeholder="Nome do Evento"
+            placeholderTextColor='#FDFCFE'
+            >
+            </TextInput>
 
-            <Text style={styles.eventDate}
-            >Terça 01 de Agosto de 2023
-            </Text>
+            <TextInput 
+            style={styles.eventDate}
+            placeholder="Data do evento"
+            placeholderTextColor='#6B6B6B'
+            >
+            </TextInput>
 
             <View style={styles.form}>
                 <TextInput
