@@ -1,0 +1,9 @@
+{
+                participants.map(participant => (
+                    <Participant 
+                    key={participant} //Toda estrutura tem uma key como indentificador, não podendo repetir
+                    name={participant}
+                    onRemove={() => handleParticipantRemove(participant)} />
+                ))
+}
+Estrutura de percorrer dinamicamento os dados que tem dentro de um array ou objeto
